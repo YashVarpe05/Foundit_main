@@ -10,7 +10,7 @@ class FooterElement extends HTMLElement {
           <div class="container">
               <div class="row">
                   <div class="col-md-3 footer-about wow fadeInUp">
-                      <img class="logo-footer" src="https://i.ibb.co/nfYhnjk/icon.png" alt="logo-footer">
+                      <img class="logo-footer" src="../../../../dist/Group 15.png" alt="logo-footer">
                       <p>
                       "We are participants of Dicoding Academy's SIB Cycle 4. Our team strives to create an innovative project that is user-friendly for everyone."
                       </p>

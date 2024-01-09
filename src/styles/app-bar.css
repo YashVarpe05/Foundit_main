@@ -1,5 +1,5 @@
 .app-bar {
-	background-color: transparent;
+	background-color: #161616;
 	position: sticky;
 	top: 0;
 	z-index: 99;
@@ -81,7 +81,7 @@
 .app-bar .app-bar__navigation ul li a {
 	display: inline-block;
 	text-decoration: none;
-	color: #292929;
+	color: #fff;
 	padding: 8px;
 	margin-bottom: 5px;
 	width: 100%;
