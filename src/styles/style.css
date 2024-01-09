@@ -70,7 +70,7 @@ main {
 /* footer */
 .footer-top {
 	padding: 60px 10px;
-	background: #252525;
+	background: #0f1112;
 	color: #aaa;
 	margin: 10px;
 	border-radius: 15px;
@@ -83,10 +83,10 @@ main {
 }
 
 .footer-about img.logo-footer {
-	max-width: 200px;
+	max-width: 250px;
 	margin-top: 0;
 	margin-bottom: 18px;
-	filter: drop-shadow(0 3px 1px rgba(0, 0, 0, 0.5));
+	/* filter: drop-shadow(0 3px 1px rgba(0, 0, 0, 0.5)); */
 }
 
 .footer-about p a {
@@ -105,7 +105,7 @@ main {
 .footer-contact i {
 	padding-right: 10px;
 	font-size: 18px;
-	color: #666;
+	color: #f9f8f8;
 }
 
 .footer-contact p a {
@@ -118,7 +118,7 @@ main {
 }
 
 .footer-links a {
-	color: #aaa;
+	color: #f9f8f8;
 	border: 0;
 	text-decoration: none;
 }
@@ -132,7 +132,7 @@ main {
 	padding: 15px 0 17px 0;
 	background: #131517;
 	text-align: left;
-	color: #aaa;
+	color: #fff;
 }
 
 .footer-social {
@@ -142,7 +142,7 @@ main {
 
 .footer-social a {
 	margin-left: 20px;
-	color: #777;
+	color: #f9f8f8;
 	border: 0;
 }
 
@@ -229,7 +229,7 @@ site-description-element .desc-container {
 }
 
 .desc-container .description h2 {
-	color: #43609b;
+	color: #64b2e2;
 	padding-bottom: 20px;
 	font-size: 3.2em;
 	font-weight: bold;
@@ -247,7 +247,7 @@ function-section button {
 }
 
 function-section h2 {
-	color: #43609b;
+	color: #64b2e2;
 	line-height: 1.1592;
 	margin-bottom: -20px;
 	font-weight: 600;
@@ -323,7 +323,7 @@ information-section {
 }
 
 information-section h2 {
-	color: #43609b;
+	color: #64b2e2;
 	font-weight: 600;
 	font-size: 2.8em;
 	text-align: center;
@@ -336,7 +336,7 @@ information-section h3 {
 
 information-section a {
 	text-decoration: none;
-	color: #43609b;
+	color: #64b2e2;
 	transition: 0.1s;
 }
 
@@ -391,12 +391,12 @@ information-section a:hover {
 
 .bi-caret-right-fill::before {
 	content: "\f231";
-	color: #43609b;
+	color: #64b2e2;
 }
 
 .bi-caret-left-fill::before {
 	content: "\f22d";
-	color: #43609b;
+	color: #64b2e2;
 }
 
 .containerCard::-webkit-scrollbar-thumb {
