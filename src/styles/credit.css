@@ -1,0 +1,38 @@
+.credit {
+  width: 70%;
+  margin: 60px auto;
+  height: auto;
+}
+
+.credit h2 {
+  margin: 30px 0 20px;
+  text-align: center;
+}
+
+.credit .line-credit {
+  width: 30%;
+}
+
+.credit .credit-list {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.credit .credit-list .credit-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+.credit .credit-list .credit-item h6{
+  justify-self: flex-end;
+}
+
+.credit .credit-list .credit-item img {
+  width: 5em;
+}

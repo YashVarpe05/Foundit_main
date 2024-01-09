@@ -1,0 +1,121 @@
+.app-bar {
+	background-color: transparent;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.app-bar .container {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	max-width: 1200px;
+	padding: 8px 16px;
+}
+
+.app-bar--scrolled {
+	background: rgba(0, 0, 0, 0.747);
+	backdrop-filter: blur(5.7px);
+	-webkit-backdrop-filter: blur(5.7px);
+}
+
+.btn-abt {
+	background-color: initial;
+	color: initial !important;
+	border-radius: initial;
+	text-transform: uppercase;
+}
+
+.app-bar .app-bar__menu {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.app-bar .app-bar__menu button {
+	background-color: transparent;
+	color: #52d8f6;
+}
+
+.app-bar .app-bar__brand {
+	display: flex;
+	align-items: center;
+}
+
+.app-bar .app-bar__brand img {
+	width: 140px;
+	height: auto;
+}
+
+.app-bar .app-bar__navigation {
+	position: absolute;
+	top: 57px;
+	width: 100%;
+	height: auto;
+	transition: all 0.3s;
+	padding: 8px;
+	background: none;
+}
+
+.app-bar .app-bar__navigation.open {
+	left: 0;
+	background: #43609b;
+	padding: 16px;
+	display: inline-block;
+}
+
+.app-bar .app-bar__navigation.open .nav-link {
+	color: #d7d7d7 !important;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.app-bar .app-bar__navigation.open .nav-link:hover {
+	color: #dd7160 !important;
+}
+
+.app-bar .app-bar__navigation.open ul li {
+	width: 100%;
+}
+
+.app-bar .app-bar__navigation ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #292929;
+	padding: 8px;
+	margin-bottom: 5px;
+	width: 100%;
+	transition: color 0.3s ease-in-out;
+	font-weight: 500;
+}
+
+.app-bar__navigation ul li a.a--scrolled {
+	color: #f3f3f3;
+}
+
+#hamburgerButton span.span--scrolled {
+	background: #d3d3d3;
+}
+
+.app-bar__navigation ul li a:hover {
+	color: #295cc4;
+}
+
+.dropdown-content a:hover {
+	color: #295cc4 !important;
+}
+
+dl,
+ol,
+ul {
+	margin-bottom: 0 !important;
+}
+
+ol,
+ul {
+	padding-left: 0 !important;
+}
+
+ul {
+	list-style-type: none;
+}

@@ -1,0 +1,47 @@
+.sponsor {
+  background-color: #D8D8D8;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+
+.sponsor-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sponsor-title h2 {
+  margin-bottom: 20px;
+}
+
+.line-sponsor {
+  width: 290px;
+}
+
+.sponsor-container {
+  width: full;
+  padding: 20px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.university {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.university img {
+  max-width: 300px;
+  background-size: cover;
+  border-radius: 5px;
+  max-height: 125px;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .sponsor-container .university img {
+    width: 100%;
+  }
+}
