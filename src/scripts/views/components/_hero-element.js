@@ -46,7 +46,7 @@ class BannerElement extends HTMLElement {
         .hero-text h1 {
           font-weight: bold;
           font-size: 5.2em;
-          color: #43609b;
+          color: #64B2E2;
           margin: 0px 20px 20px 0px;
           line-height: 1.125;
         }
@@ -54,6 +54,7 @@ class BannerElement extends HTMLElement {
         .hero-text h3 {
           margin: 0px 0px -10px 0px;
           font-size: 1.8em;
+          color:#fff;
         }
 
         .btn-report {
@@ -64,7 +65,7 @@ class BannerElement extends HTMLElement {
           text-align: center;
           text-decoration: none;
           background-color: #dd7160;
-          color: #333;
+          color: #fff;
           border: none;
           border-radius: 4px;
           cursor: pointer;
@@ -73,7 +74,7 @@ class BannerElement extends HTMLElement {
 
         .btn-report:hover {
           background-color: #333;
-          color: #fff;
+          color: #333;
         }
 
         .btn-report:active {
@@ -82,7 +83,7 @@ class BannerElement extends HTMLElement {
 
         .hero-text p {
           font-family: 'Montserrat', sans-serif;
-          color: #1c1a1a;
+          color: #fff ;
           font-weight: 500;
           font-size: 1.2em;
         }

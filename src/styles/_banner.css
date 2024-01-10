@@ -11,7 +11,7 @@
 .hero-text h1 {
 	font-weight: bold;
 	font-size: 2.2em;
-	color: #43609b;
+	color: #64b2e2;
 	margin-bottom: 20px;
 	margin-left: -5px;
 	line-height: 1.125;
@@ -21,7 +21,7 @@
 	margin: 0px 0px 10px 0px;
 	font-size: 1.4em;
 	padding-bottom: 5px;
-	color: #252525;
+	color: #fff;
 }
 
 .btn-lapor {
@@ -34,7 +34,7 @@
 }
 
 .btn-lapor button:hover {
-	background-color: #43609b;
+	background-color: #64b2e2;
 }
 
 .btn-lapor button:active {
@@ -42,7 +42,7 @@
 }
 
 .hero-text p {
-	color: #1c1a1a;
+	color: #ffffffde;
 	font-weight: 400;
 	font-size: 0.8em;
 }
@@ -63,7 +63,7 @@
 
 #information-section {
 	background-color: #252525;
-	color: #010101;
+	color: #fff;
 	margin: 40px auto;
 	display: flex;
 	align-items: center;
