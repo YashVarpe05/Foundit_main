@@ -1,5 +1,5 @@
 .app-bar {
-	background-color: transparent;
+	background-color: #161616;
 	position: sticky;
 	top: 0;
 	z-index: 99;
@@ -34,7 +34,7 @@
 
 .app-bar .app-bar__menu button {
 	background-color: transparent;
-	color: #52d8f6;
+	color: #64b2e2;
 }
 
 .app-bar .app-bar__brand {
@@ -59,7 +59,7 @@
 
 .app-bar .app-bar__navigation.open {
 	left: 0;
-	background: #43609b;
+	background: #64b2e2;
 	padding: 16px;
 	display: inline-block;
 }
@@ -81,7 +81,7 @@
 .app-bar .app-bar__navigation ul li a {
 	display: inline-block;
 	text-decoration: none;
-	color: #292929;
+	color: #fff;
 	padding: 8px;
 	margin-bottom: 5px;
 	width: 100%;
