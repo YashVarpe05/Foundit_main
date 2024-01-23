@@ -223,8 +223,10 @@ site-description-element .desc-container {
 }
 
 .desc-container .description p {
-	color: #0c0c0c;
+	color: #f9f8f8;
 	font-size: 20px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	text-align: center;
 }
 
@@ -282,13 +284,17 @@ function-section h2 {
 	align-content: center;
 	justify-content: center;
 	gap: 40px;
+	color: #ffffffcf;
 }
 
 .right-side .btn-cari,
 .right-side .btn-lapor-penemuan {
-	border-radius: 5px;
+	border-radius: 15px;
 }
-
+.btn-search,
+.btn-report-discovery {
+	border-radius: 8px;
+}
 .btn-cari,
 .btn-lapor-penemuan,
 .btn-primary,
@@ -320,6 +326,12 @@ information-section {
 	margin: 50px 0 0 0;
 	width: 100%;
 	padding-bottom: 60px;
+}
+#information-section {
+	background-color: #161616 !important;
+}
+#information-section p {
+	color: #f9f8f8;
 }
 
 information-section h2 {
@@ -412,7 +424,7 @@ information-section a:hover {
 }
 
 .containerCard::-webkit-scrollbar-track {
-	background-color: rgb(238, 238, 238);
+	background-color: rgba(238, 238, 238, 0.327);
 	border-radius: 5px;
 }
 
@@ -503,7 +515,7 @@ information-section a:hover {
 
 .card-text {
 	font-size: 0.875rem;
-	color: #555;
+	color: #a29e9e;
 	overflow: hidden;
 	display: -webkit-box;
 	-webkit-line-clamp: 3; /* number of lines to show */
@@ -523,10 +535,15 @@ information-section a:hover {
 	width: 18rem;
 	border: none;
 	border-radius: 8px;
+	background-color: #ffffff03;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-
+.home-card:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .card-img-top {
 	height: 200px;
 	object-fit: cover;

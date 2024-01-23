@@ -74,8 +74,8 @@ class PrivacyPolicy extends HTMLElement {
                 <h2>9. Contact:</h2>
                 <p>If you have questions or concerns about the privacy policy, please contact us via:</p>
                 <ul>
-                    <li>Email: lostandfound@finder.org</li>
-                    <li>Phone number: 622-717-659</li>
+                    <li>Email: Foundit@foundit.org</li>
+                    <li>Phone number: 8766080040</li>
                 </ul>
 
             </ol>

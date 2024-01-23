@@ -6,8 +6,9 @@ class NavigationBar extends HTMLElement {
 	render() {
 		this.innerHTML = `
         <nav id="navigationDrawer" class="app-bar__navigation">
+		 <img src="foundit.png" class="nav-logo" alt="logo">
           <ul>
-            <li><a class="nav-link" href="#/home">HOME</a></li>
+            <li><a class="nav-link" href="#/home">Home</a></li>
             <li class="dropdown">
               <a href="#" class="dropbtn nav-link" onclick="return false;">SERVICE</a>
               <div class="dropdown-content">

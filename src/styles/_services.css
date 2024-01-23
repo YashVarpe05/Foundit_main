@@ -2,6 +2,7 @@
 .services {
 	padding: 0 auto;
 	text-align: center;
+	color: #fff;
 }
 
 .services-list {
@@ -14,6 +15,9 @@
 	padding: 20px;
 	list-style: none;
 	border-radius: 0;
+}
+.role-desc {
+	padding-top: 20px;
 }
 
 .service-item1,

@@ -1,8 +1,8 @@
 /* eslint-disable no-plusplus */
 /* eslint-disable no-inner-declarations */
 /* eslint-disable no-param-reassign */
-import bannerImage from "../../../public/images/hero/guy.png";
-
+// import bannerImage from "../../../public/images/hero/guy.png";
+import heroImage from "./serach.png";
 class BannerElement extends HTMLElement {
 	constructor() {
 		super();
@@ -46,7 +46,7 @@ class BannerElement extends HTMLElement {
         .hero-text h1 {
           font-weight: bold;
           font-size: 5.2em;
-          color: #43609b;
+          color: #fff;
           margin: 0px 20px 20px 0px;
           line-height: 1.125;
         }
@@ -64,7 +64,7 @@ class BannerElement extends HTMLElement {
           text-align: center;
           text-decoration: none;
           background-color: #dd7160;
-          color: #333;
+          color: #fff;
           border: none;
           border-radius: 4px;
           cursor: pointer;
@@ -82,25 +82,31 @@ class BannerElement extends HTMLElement {
 
         .hero-text p {
           font-family: 'Montserrat', sans-serif;
-          color: #1c1a1a;
+          color: #fff;
           font-weight: 500;
           font-size: 1.2em;
         }
 
         .hero-image {
-          min-width: 450px;
+          min-width: 350px;
           height: auto;
           overflow: hidden;
         }
 
         .hero-image img {
-          width: 100%;
-          height: 100%;
-          background: rgba(0, 0, 0, 0.51);
+          width: 70%;
+          height: 70%;
+         
           backdrop-filter: blur(1.9px);
           -webkit-backdrop-filter: blur(1.9px);
           border-radius: 50px 0 50px 0;
           object-fit: cover;
+        }
+        .hero-h3{
+          color:#fff;
+        }
+        .hero-title{
+          color:blue;
         }
 
         @media (max-width: 790px) {
@@ -135,13 +141,12 @@ class BannerElement extends HTMLElement {
 
       <div class="hero">
         <div class="hero-text">
-          <h3>Finder</h3>
-          <h1>Welcome to Lost & Found</h1>
+          <h1 class="hero-title">Welcome to <span>FoundIt</span> </h1>
           <p>We provide a platform to help you report or find lost items!</p>
           <button class="btn-report">Create Report</button>
         </div>
         <div class="hero-image">
-          <img src="${bannerImage}" alt="Hero Image">
+          <img src="${heroImage}" alt="Hero Image">
         </div>
       </div>
     `;

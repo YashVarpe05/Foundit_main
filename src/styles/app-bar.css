@@ -39,22 +39,34 @@
 
 .app-bar .app-bar__brand {
 	display: flex;
+	background-image: "../public/images/hero/bnr.png" !important;
 	align-items: center;
+	position: absolute !important;
+	z-index: 111 !important;
 }
 
 .app-bar .app-bar__brand img {
-	width: 140px;
+	width: 1px;
 	height: auto;
+	background-image: "../public/images/hero/bnr.png" !important;
+	position: absolute;
 }
 
 .app-bar .app-bar__navigation {
-	position: absolute;
+	position: flex;
 	top: 57px;
 	width: 100%;
 	height: auto;
 	transition: all 0.3s;
 	padding: 8px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
 	background: none;
+}
+.app-bar .app-bar__navigation .nav-logo {
+	width: 20%;
 }
 
 .app-bar .app-bar__navigation.open {
