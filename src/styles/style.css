@@ -826,8 +826,7 @@ hr {
 }
 
 .logo-filler img {
-	max-width: 350px;
-	filter: opacity(50%);
+	display: none;
 }
 
 .detail-function {
