@@ -17,7 +17,7 @@ class NavigationBar extends HTMLElement {
                 <a href="#/list-item-service">Item List</a>
               </div>
             </li>
-            <li><a class="btn-abt nav-link" href="#/about">About</a></li>
+            <li><a class="btn-abt nav-link" target="_blank" href="https://yashvarpe05.github.io/FOUNDIT/">About</a></li>
           </ul>
         </nav>
       `;
